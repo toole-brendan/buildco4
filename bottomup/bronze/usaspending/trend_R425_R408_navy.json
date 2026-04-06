@@ -1,0 +1,42 @@
+[
+  {
+    "fiscal_year": "2017",
+    "aggregated_amount": 4515531657.0
+  },
+  {
+    "fiscal_year": "2018",
+    "aggregated_amount": 5421518350.63
+  },
+  {
+    "fiscal_year": "2019",
+    "aggregated_amount": 5508085559.43
+  },
+  {
+    "fiscal_year": "2020",
+    "aggregated_amount": 6094268505.34
+  },
+  {
+    "fiscal_year": "2021",
+    "aggregated_amount": 6577707358.07
+  },
+  {
+    "fiscal_year": "2022",
+    "aggregated_amount": 6874430616.52
+  },
+  {
+    "fiscal_year": "2023",
+    "aggregated_amount": 7415050309.37
+  },
+  {
+    "fiscal_year": "2024",
+    "aggregated_amount": 8712738599.56
+  },
+  {
+    "fiscal_year": "2025",
+    "aggregated_amount": 8801049263.88
+  },
+  {
+    "fiscal_year": "2026",
+    "aggregated_amount": 1072423796.3
+  }
+]
