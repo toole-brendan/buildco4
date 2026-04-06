@@ -2,7 +2,7 @@
 """
 Generate the Top-Down TAM Workbook for In-Service Vessel Work (US Navy & Coast Guard).
 
-Styling follows WORKBOOK_STYLING_GUIDE.md:
+Styling follows docs/WORKBOOK_STYLING_GUIDE.md:
   - Arial 8 everywhere, row height 10.0, no gridlines, no freeze panes, no text wrap
   - Blue text = hardcoded numeric input
   - Black text = formula or text label

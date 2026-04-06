@@ -43,8 +43,8 @@ log = logging.getLogger(__name__)
 # ---------------------------------------------------------------------------
 
 BRONZE_DIR = Path(__file__).parent.parent / "bronze" / "newbuild" / "usaspending"
-OUTPUT_CSV = Path(__file__).parent.parent / "newbuild_discovery.csv"
-REPORT_MD = Path(__file__).parent.parent / "newbuild_discovery_report.md"
+OUTPUT_CSV = Path(__file__).parent.parent / "newbuild" / "discovery.csv"
+REPORT_MD = Path(__file__).parent.parent / "newbuild" / "discovery_report.md"
 
 FY_START = 2017
 FY_END = 2026

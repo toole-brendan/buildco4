@@ -321,7 +321,7 @@ def run_fpds_targeted():
 # ===================================================================
 
 def generate_bronze_summary(trend_results, vendor_results, award_results, fpds_stats):
-    summary_path = Path(__file__).parent.parent / "bronze_option_d_summary.md"
+    summary_path = Path(__file__).parent.parent / "bronze" / "option_d_summary.md"
 
     lines = [
         "# Option D Bronze Summary",
