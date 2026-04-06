@@ -348,13 +348,13 @@ Search for:
 
 ## Medallion Architecture: How It Maps to This Plan
 
-This plan follows the Bronze / Silver / Gold medallion method described in `medallion-architecture-generalized.md.pdf`. Each layer produces a concrete output file.
+This plan follows the Bronze / Silver / Gold medallion method described in `docs/medallion-architecture-generalized.md.pdf`. Each layer produces a concrete output file.
 
 ### Bronze (Raw Ingestion) — Phases 0–5
 
 **What happens:** Extract every potentially relevant figure from each budget book exactly as it appears — no filtering, no judgment about which bucket it belongs to. Record the raw dollar values, line item names, SAG/BLI codes, page references, and source file.
 
-**Output file:** `topdown/bronze_extractions.md`
+**Output file:** `topdown/bronze/` (one file per book)
 
 Structure per book:
 ```
@@ -391,7 +391,7 @@ Steps:
 5. **Flag new-build vs. in-service ambiguity** — for OPN lines where the detail book doesn't cleanly separate new-build from in-service, tag as PARTIAL and note the assumed in-service share.
 6. **Assign bucket** — every INCLUDE and PARTIAL line gets a bucket number. This is the bucket assignment that Gold will use directly.
 
-**Output file:** `topdown/silver_canonical.md`
+**Output file:** `topdown/silver/canonical.md`
 
 **Key rule: every line item from Bronze appears in Silver.** Nothing is silently dropped. EXCLUDE items stay in the table with their disposition and rationale — they are just not counted in totals. This preserves full continuity from Bronze → Silver → Gold.
 
@@ -440,7 +440,7 @@ Structure:
 
 **Output files:**
 
-**1. `topdown/gold_tam_table.md` — The primary deliverable**
+**1. `topdown/gold/tam_table.md` — The primary deliverable**
 
 The bucket-by-bucket TAM table with every contributing line item visible. Structure per bucket (all $ in thousands):
 
@@ -485,7 +485,7 @@ Then a **roll-up summary table** at the end:
 
 The Public Yard / Private Industry / Mixed columns show the FY26 split by performer. This allows reading the table two ways: total market (FY26 Request) and addressable market for a private shipbuilder (Private Industry + share of Mixed).
 
-**2. `topdown/gold_confidence_and_gaps.md` — Confidence tiers and known gaps**
+**2. `topdown/gold/confidence_and_gaps.md` — Confidence tiers and known gaps**
 
 For each bucket:
 - **High confidence** — dollar figure comes directly from a named budget line with a clear boundary.
@@ -497,14 +497,14 @@ Known exclusions:
 - MSC vessel work (may be in different appropriations — check if OMN or SCN has MSC-specific lines)
 - Army watercraft (separate service budget, not in Navy books)
 
-**3. `topdown/gold_reconciliation.md` — Cross-checks**
+**3. `topdown/gold/reconciliation.md` — Cross-checks**
 
 1. **OMN internal check:** Sum of Bucket 1 + 2 + (OMN portion of 6) should ≈ SAG 1B4B ($13.8B). Bucket 5 should ≈ SAG 1B5B ($2.76B).
 2. **Cross-source check:** Sum of all buckets should be in the neighborhood of the $16.2B ship maintenance figure (acknowledging that figure may use a different boundary and likely excludes OPN modernization).
 3. **Reasonableness:** Bucket 1 (depot) should be the largest single bucket. RCOH should dominate Bucket 4. BA8 spares should be smaller than Bucket 1.
 4. **No double-counting:** OPN modernization lines should not overlap with OMN depot maintenance lines (budget books split these cleanly by appropriation, so this should hold).
 
-**4. `topdown/tam_topdown_summary.md` — Executive summary**
+**4. `topdown/gold/summary.md` — Executive summary**
 
 A concise, presentation-ready document that synthesizes the entire top-down analysis. Structure:
 
@@ -518,7 +518,7 @@ A concise, presentation-ready document that synthesizes the entire top-down anal
 - FY trend: [growing / flat / declining] at ~X% CAGR
 
 ## By Bucket
-[The roll-up table from gold_tam_table.md]
+[The roll-up table from gold/tam_table.md]
 
 ## By Funding Source
 | Funding Source | FY26 ($B) | % of Total | Buckets Served |
@@ -568,7 +568,7 @@ These books are large (OMN_Book.txt is 3MB, OPN books are 1-4MB each). The follo
 5. **Record page references / line numbers** for every extracted figure so the work is auditable.
 6. **Write intermediate results to disk after each phase.** Do not accumulate everything in memory.
 7. **The Supp_Book.pdf must be converted to text before any other work begins.** Run: `pdftotext -layout topdown/sources/Supp_Book.pdf topdown/sources/Supp_Book.txt`
-8. **Write Bronze output after each book is processed** — do not wait until all books are done. Append to `topdown/bronze_extractions.md` incrementally.
+8. **Write Bronze output after each book is processed** — do not wait until all books are done. Write to `topdown/bronze/` (one file per book) incrementally.
 9. **Write Silver output only after all Bronze extraction is complete** — Silver needs the full picture to resolve overlaps and apply include/exclude rules.
 10. **Write Gold output only after Silver is complete** — Gold is mechanical application of the bucket taxonomy to Silver-canonical data.
 
@@ -578,12 +578,12 @@ These books are large (OMN_Book.txt is 3MB, OPN books are 1-4MB each). The follo
 
 | File | Layer | What It Contains | When Written |
 |------|-------|------------------|--------------|
-| `topdown/bronze_extractions.md` | Bronze | Every extracted line item from every book, raw, with source/line references | Incrementally during Phases 1–5 |
-| `topdown/silver_canonical.md` | Silver | Line-by-line disposition (INCLUDE/EXCLUDE/PARTIAL), overlap resolution, split logic, reconciliation summary | After all Bronze extraction is complete |
-| `topdown/gold_tam_table.md` | Gold | The 6-bucket TAM table with every contributing line item visible, plus roll-up summary | After Silver is complete |
-| `topdown/gold_confidence_and_gaps.md` | Gold | Confidence tiers per bucket, known exclusions, data gaps | After Silver is complete |
-| `topdown/gold_reconciliation.md` | Gold | Cross-checks against known benchmarks and internal consistency tests | After Gold table is assembled |
-| `topdown/tam_topdown_summary.md` | Final | Executive summary — total market size, by-bucket and by-source breakdowns, key findings, methodology | After all Gold files are complete |
+| `topdown/bronze/` (one file per book) | Bronze | Every extracted line item from every book, raw, with source/line references | Incrementally during Phases 1–5 |
+| `topdown/silver/canonical.md` | Silver | Line-by-line disposition (INCLUDE/EXCLUDE/PARTIAL), overlap resolution, split logic, reconciliation summary | After all Bronze extraction is complete |
+| `topdown/gold/tam_table.md` | Gold | The 6-bucket TAM table with every contributing line item visible, plus roll-up summary | After Silver is complete |
+| `topdown/gold/confidence_and_gaps.md` | Gold | Confidence tiers per bucket, known exclusions, data gaps | After Silver is complete |
+| `topdown/gold/reconciliation.md` | Gold | Cross-checks against known benchmarks and internal consistency tests | After Gold table is assembled |
+| `topdown/gold/summary.md` | Final | Executive summary — total market size, by-bucket and by-source breakdowns, key findings, methodology | After all Gold files are complete |
 
 ---
 
