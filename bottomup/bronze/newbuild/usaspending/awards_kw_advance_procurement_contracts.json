@@ -1,0 +1,34 @@
+[
+  {
+    "source": "USASPENDING",
+    "award_id": "N0002420C2437",
+    "vendor_name": "HUNTINGTON INGALLS INCORPORATED",
+    "description": "LHA 9 ADVANCE PROCUREMENT",
+    "award_amount": 3154163794.0,
+    "total_outlays": 507614.94,
+    "contract_award_type": "DEFINITIVE CONTRACT",
+    "start_date": "2020-04-30",
+    "end_date": "2030-12-31",
+    "awarding_agency": "Department of Defense",
+    "awarding_sub_agency": "Department of the Navy",
+    "naics_code": null,
+    "psc_code": null,
+    "query_batch": "kw_advance_procurement_contracts"
+  },
+  {
+    "source": "USASPENDING",
+    "award_id": "N0002424C2467",
+    "vendor_name": "HUNTINGTON INGALLS INCORPORATED",
+    "description": "LHA 10 ADVANCE PROCUREMENT",
+    "award_amount": 321558839.0,
+    "total_outlays": null,
+    "contract_award_type": "DEFINITIVE CONTRACT",
+    "start_date": "2023-11-17",
+    "end_date": "2033-09-30",
+    "awarding_agency": "Department of Defense",
+    "awarding_sub_agency": "Department of the Navy",
+    "naics_code": null,
+    "psc_code": null,
+    "query_batch": "kw_advance_procurement_contracts"
+  }
+]

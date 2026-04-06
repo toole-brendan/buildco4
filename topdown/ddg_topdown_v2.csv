@@ -1,0 +1,103 @@
+source_book,program_name,line_item_or_exhibit,description,fiscal_year,amount_thousands,amount_raw,appropriation,notes,qty_units,cost_per_unit_thousands,cost_per_unit_millions,unit_basis
+SCN,DDG 1000,LI 2119 P-1 Line #12,DDG 1000 (Zumwalt class) - Full Funding TOA,FY2024,392892,392.892M,SCN,Subsequent year full funding; DDG 1002 completion; CPS integration,,,,
+SCN,DDG 1000,LI 2119 P-1 Line #12,DDG 1000 (Zumwalt class) - Full Funding TOA,FY2025,61100,61.100M,SCN,Subsequent year full funding; DDG 1002 completion,,,,
+SCN,DDG 1000,LI 2119 P-1 Line #12,DDG 1000 (Zumwalt class) - Full Funding TOA,FY2026,52358,52.358M,SCN,FY2026 Base request; DDG 1002 mission systems activation and UCEU procurement,,,,
+SCN,DDG 1000,LI 2119 P-1 Line #12,DDG 1000 (Zumwalt class) - Total Obligation Authority,FY2024,392892,392.892M,SCN,Same as Full Funding TOA for this year,,,,
+SCN,DDG 1000,LI 2119 P-1 Line #12,DDG 1000 (Zumwalt class) - Total Obligation Authority,FY2025,61100,61.100M,SCN,Same as Full Funding TOA for this year,,,,
+SCN,DDG 1000,LI 2119 P-1 Line #12,DDG 1000 (Zumwalt class) - Total Obligation Authority,FY2026,52358,52.358M,SCN,FY2026 Total (Base + OOC); OOC is $0,,,,
+SCN,DDG 51,LI 2122 P-1 Line #13,DDG-51 (Arleigh Burke class) - Construction Gross Cost,FY2024,5492330,5492.330M,SCN,2 ships; Qty 2,2,2746165,2746.165,Ship qty from SCN P-1/P-5c exhibit
+SCN,DDG 51,LI 2122 P-1 Line #13,DDG-51 (Arleigh Burke class) - Construction Gross Cost,FY2025,7858814,7858.814M,SCN,3 ships; Qty 3; includes subsequent full funding $1.683B,3,2619605,2619.605,Ship qty from SCN P-1/P-5c exhibit
+SCN,DDG 51,LI 2122 P-1 Line #13,DDG-51 (Arleigh Burke class) - Construction Gross Cost (Disc),FY2026,306125,306.125M,SCN,FY2026 Base discretionary request; Qty 0 new ships in discretionary,,,,
+SCN,DDG 51,LI 2122 P-1 Line #13,DDG-51 (Arleigh Burke class) - Construction Mandatory (Reconcil),FY2026,5400000,5400.000M,SCN,FY2026 Reconciliation/mandatory; Qty 2 ships,2,2700000,2700.000,Ship qty from SCN P-1/P-5c exhibit
+SCN,DDG 51,LI 2122 P-1 Line #13,DDG-51 (Arleigh Burke class) - Construction Total,FY2026,5706125,5706.125M,SCN,FY2026 Total (Disc $306.125M + Mandatory $5400M); Qty 2 ships,2,2853062,2853.062,Ship qty from SCN P-1/P-5c exhibit
+SCN,DDG 51,LI 2122 P-1 Line #13,DDG-51 Net Procurement (P-1),FY2024,4499179,4499.179M,SCN,After deducting AP/EOQ/subsequent funding,,,,
+SCN,DDG 51,LI 2122 P-1 Line #13,DDG-51 Net Procurement (P-1),FY2025,6268519,6268.519M,SCN,After deducting AP/EOQ,,,,
+SCN,DDG 51,LI 2122 P-1 Line #13,DDG-51 Net Procurement (P-1),FY2026,10773,10.773M,SCN,FY2026 Base discretionary net amount only,,,,
+SCN,DDG 51,LI 2122 P-1 Line #13,DDG-51 Total Obligation Authority,FY2024,6366431,6366.431M,SCN,Includes AP + EOQ + cost to complete,,,,
+SCN,DDG 51,LI 2122 P-1 Line #13,DDG-51 Total Obligation Authority,FY2025,8268628,8268.628M,SCN,Includes AP $83.224M + subsequent funding,,,,
+SCN,DDG 51,LI 2122 P-1 Line #13,DDG-51 Total Obligation Authority (Disc only),FY2026,10773,10.773M,SCN,FY2026 Base discretionary TOA; no AP or EOQ in FY26,,,,
+SCN,DDG 51,LI 2122 P-1 Line #13,DDG-51 Less EOQ,FY2024,233588,233.588M,SCN,Economic Order Quantity for MYP,,,,
+SCN,DDG 51,LI 2122 P-1 Line #13,DDG-51 Less EOQ,FY2025,1587636,1587.636M,SCN,Economic Order Quantity for MYP,,,,
+SCN,DDG 51,LI 2122 P-1 Line #13,DDG-51 Less EOQ,FY2026,230331,230.331M,SCN,Economic Order Quantity for FY23-FY27 MYP,,,,
+SCN,DDG 51,LI 2122 P-1 Line #14,DDG-51 Advance Procurement (CY),FY2024,1641335,1641.335M,SCN,Advance procurement for future year ships,,,,
+SCN,DDG 51,LI 2122 P-1 Line #14,DDG-51 Advance Procurement (CY),FY2025,83224,83.224M,SCN,Advance procurement,,,,
+SCN,DDG 51,LI 2122 P-1 Line #14,DDG-51 Advance Procurement (CY),FY2026,0,0,SCN,No FY2026 Advance Procurement request; $0 mandatory and $0 discretionary,,,,
+SCN,DDG 51,LI 2122 P-1 Line #13,DDG-51 Unit Cost (Gross/Weapon System),FY2024,2746165,2746.165M,SCN,Per-ship unit cost,1,2746165,2746.165,Budget exhibit stated unit cost
+SCN,DDG 51,LI 2122 P-1 Line #13,DDG-51 Unit Cost (Gross/Weapon System),FY2025,2619605,2619.605M,SCN,Per-ship unit cost; 3 ships,1,2619605,2619.605,Budget exhibit stated unit cost
+SCN,DDG 51,LI 2122 Exhibit P-5c,DDG-51 Cost to Complete Prior Year Ships,FY2024,225917,225.917M,SCN,Completion of prior year shipbuilding,,,,
+SCN,DDG 51,LI 2122 Exhibit P-5c,DDG-51 Cost to Complete Prior Year Ships,FY2025,233514,233.514M,SCN,Completion of prior year shipbuilding,,,,
+SCN,DDG 51,LI 2122 P-1 Line #13,DDG-51 Outfitting and Post Delivery,FY2024,84763,84.763M,SCN,Informational; budgeted elsewhere,,,,
+SCN,DDG 51,LI 2122 P-1 Line #13,DDG-51 Outfitting and Post Delivery,FY2025,137594,137.594M,SCN,Informational; budgeted elsewhere,,,,
+SCN,DDG 51,LI 2122 P-1 Line #13,DDG-51 Outfitting and Post Delivery,FY2026,167272,167.272M,SCN,Informational; budgeted elsewhere,,,,
+SCN,DDG,SCN MEMO NON ADD,DDG Completion of Prior Year Programs (Reconciliation),FY2026,176845,176.845M,SCN,Mandatory/reconciliation funding for prior-year DDG completion,,,,
+OPN_BA1,DDG 51 (MOD),LI 0900 P-1 Line #5,DDG Modernization - Total (Disc Base),FY2024,641676,641.676M,OPN,DDG MOD upgrades for Flight I/II/IIA ships,,,,
+OPN_BA1,DDG 51 (MOD),LI 0900 P-1 Line #5,DDG Modernization - Total (Disc Base),FY2025,861066,861.066M,OPN,DDG MOD upgrades including DDG MOD 2.0 enhancements,,,,
+OPN_BA1,DDG 51 (MOD),LI 0900 P-1 Line #5,DDG Modernization - Discretionary Base,FY2026,686787,686.787M,OPN,FY2026 Base discretionary request,,,,
+OPN_BA1,DDG 51 (MOD),LI 0900 P-1 Line #5,DDG Modernization - Mandatory (Reconcil),FY2026,310698,310.698M,OPN,FY2026 Reconciliation/mandatory for DDG MOD 2.0 acceleration,,,,
+OPN_BA1,DDG 51 (MOD),LI 0900 P-1 Line #5,DDG Modernization - Total,FY2026,997485,997.485M,OPN,FY2026 Total (Disc $686.787M + Mandatory $310.698M),5,199497,199.497,~5 ships receiving DDG MOD work in FY26 (approx from install schedule)
+OPN_BA1,DDG 51 (MOD),LI 0900 DM001,DDG MOD HME - GEDMS (Gigabit Ethernet Data Multiplexing),FY2026,24122,24.122M,OPN,HM&E modernization - network infrastructure replacement,,,,
+OPN_BA1,DDG 51 (MOD),LI 0900 DM001,DDG MOD HME - MCS/DCS (Machinery Control System),FY2026,45949,45.949M,OPN,HM&E modernization - control console replacement,,,,
+OPN_BA1,DDG 51 (MOD),LI 0900 DM001,DDG MOD HME - DVSS (Digital Video Surveillance),FY2026,2917,2.917M,OPN,HM&E modernization - video surveillance,,,,
+OPN_BA1,DDG 51 (MOD),LI 0900 DM001,DDG MOD HME - IBNS (Integrated Bridge & Navigation),FY2026,13182,13.182M,OPN,HM&E modernization - bridge/navigation replacement,,,,
+OPN_BA1,DDG 51 (MOD),LI 0900 DM001,DDG MOD HME - HES-C (High Efficiency Super-Capacity Chillers),FY2026,81123,81.123M,OPN,Required for ships receiving SPY-6(V)4 radar upgrade,,,,
+OPN_BA1,DDG 51 (MOD),LI 0900 DM003,DDG MOD - MK 160 Mod 15 GWS (Gun Weapon System),FY2026,4431,4.431M,OPN,Gun weapon system upgrade,,,,
+OPN_BA1,DDG 51 (MOD),LI 0900 DM004,DDG MOD - AWS Upgrade (Aegis Weapon System),FY2026,51902,51.902M,OPN,Aegis Weapon System modernization for BMD capability,,,,
+OPN_BA1,DDG 51 (MOD),LI 0900 DM005,DDG MOD - Multi-Mission Signal Processor (MMSP),FY2026,8447,8.447M,OPN,BMD capability for ships retaining SPY-1(D) radar,,,,
+OPN_BA1,DDG 51 (MOD),LI 0900 DM006,DDG MOD - Multi-Mission SSA/CWI Microwave Tubes,FY2026,0,0,OPN,Not required for DDG MOD 2.0 ships with SPY-6(V)4,,,,
+OPN_BA1,DDG 51 (MOD),LI 0900 DM008,DDG MOD - Multi-Mission BMD Capability Cards,FY2026,0,0,OPN,Not required for DDG MOD 2.0 ships with SPY-6(V)4,,,,
+OPN_BA1,DDG 51 (MOD),LI 0900 DM009,DDG MOD - VLS Upgrades,FY2026,8999,8.999M,OPN,Vertical Launch System modifications for SM3 and ESSM,,,,
+OPN_BA1,DDG 51 (MOD),LI 0900 DM011,DDG MOD - AN/SQQ-89 A(V15) ASW Suite,FY2026,0,0,OPN,No FY26 procurement,,,,
+OPN_BA1,DDG 51 (MOD),LI 0900 DM013,DDG MOD - 1MC/DIAS Upgrade,FY2026,10440,10.440M,OPN,Conjunctive alteration,,,,
+OPN_BA1,DDG 51 (MOD),LI 0900 DM013,DDG MOD - MORIAH Wind System,FY2026,1325,1.325M,OPN,Conjunctive alteration,,,,
+OPN_BA1,DDG 51 (MOD),LI 0900 DM013,DDG MOD - IVCS Upgrade,FY2026,14953,14.953M,OPN,Interior Voice Communication System upgrade,,,,
+OPN_BA1,DDG 51 (MOD),LI 0900 DM013,DDG MOD - Slewing Arm Davit (SLAD),FY2026,630,0.630M,OPN,Conjunctive alteration,,,,
+OPN_BA1,DDG 51 (MOD),LI 0900 DM013,DDG MOD - AN/SPA-25,FY2026,1307,1.307M,OPN,Conjunctive alteration,,,,
+OPN_BA1,DDG 51 (MOD),LI 0900 DM014,DDG MOD - SPY-6(V)4 Solid State Radar Equipment,FY2026,337068,337.068M,OPN,Largest DDG MOD cost element; replaces SPY-1 with SPY-6 for IAMD,2,168534,168.534,SPY-6(V)4 procurement for 2 future DDG MOD 2.0 ships
+OPN_BA1,DDG 51 (MOD),LI 0900 DM002,DDG MOD - Land Based Engineering Sites,FY2026,6891,6.891M,OPN,Shore facilities for pre-installation testing and crew training,,,,
+OPN_BA1,DDG 51 (MOD),LI 0900 DM6IN,DDG MOD - Installation,FY2026,36048,36.048M,OPN,Physical installation of modernization alterations,,,,
+OPN_BA1,DDG 51 (MOD),LI 0900 CSSQT,DDG MOD - Combat System Ship Qualification Trials,FY2026,15322,15.322M,OPN,Live-fire testing after C/S modifications,,,,
+OPN_BA1,DDG 51 (MOD),LI 0900 AMT,DDG MOD - Aegis Modernization Testing,FY2026,20565,20.565M,OPN,On-site engineering/technical support for AEGIS modernization,,,,
+OPN_BA1,DDG 51 (MOD),LI 0900 DVR,DDG MOD - Digital Voltage Regulator,FY2026,434,0.434M,OPN,Conjunctive alteration engineering only in FY26,,,,
+OPN_BA1,DDG 1000,LI 0947 P-1 Line #16,DDG 1000 Class Support Equipment - Total,FY2024,220771,220.771M,OPN,CPS integration + class product improvement + sustainment,3,73590,73.590,DDG 1000 class = 3 ships
+OPN_BA1,DDG 1000,LI 0947 P-1 Line #16,DDG 1000 Class Support Equipment - Total,FY2025,340668,340.668M,OPN,CPS integration + class product improvement + sustainment,3,113556,113.556,DDG 1000 class = 3 ships
+OPN_BA1,DDG 1000,LI 0947 P-1 Line #16,DDG 1000 Class Support Equipment - Total,FY2026,115267,115.267M,OPN,FY2026 Total; all discretionary (OOC is $0),3,38422,38.422,DDG 1000 class = 3 ships
+OPN_BA1,DDG 1000,LI 0947 P-40a,DDG 1000 Class Support Equipment (non-CPS),FY2024,65677,65.677M,OPN,Product improvement; TSCE DMSMS; cybersecurity; sustainment,,,,
+OPN_BA1,DDG 1000,LI 0947 P-40a,DDG 1000 Class Support Equipment (non-CPS),FY2025,74545,74.545M,OPN,Product improvement; TSCE Mod procurement ($57.5M); sustainment,,,,
+OPN_BA1,DDG 1000,LI 0947 P-40a,DDG 1000 Class Support Equipment (non-CPS),FY2026,17122,17.122M,OPN,TSCE DMSMS $10.578M; cybersecurity $2.044M; TSCE Mod eng $2M; C4I $1.5M; RAM $1M,,,,
+OPN_BA1,DDG 1000,LI 0947 P-3a,DDG 1000 Conventional Prompt Strike (CPS) - Total,FY2024,155094,155.094M,OPN,CPS shipbuilding + Advanced Payload Modules + support,3,51698,51.698,CPS integration across 3 DDG 1000 ships
+OPN_BA1,DDG 1000,LI 0947 P-3a,DDG 1000 Conventional Prompt Strike (CPS) - Total,FY2025,266123,266.123M,OPN,CPS shipbuilding + APMs + support; DDG 1001 BYMP long lead material,3,88708,88.708,CPS integration across 3 DDG 1000 ships
+OPN_BA1,DDG 1000,LI 0947 P-3a,DDG 1000 Conventional Prompt Strike (CPS) - Total,FY2026,98145,98.145M,OPN,CPS procurement $72.530M + support $25.115M + install $0.500M,3,32715,32.715,CPS integration across 3 DDG 1000 ships
+OPN_BA1,DDG 1000,LI 0947 P-3a CPS-APM,DDG 1000 CPS - Advanced Payload Modules,FY2024,85000,85.000M,OPN,3 APMs procured,3,28333,28.333,APM qty from P-3a exhibit
+OPN_BA1,DDG 1000,LI 0947 P-3a CPS-APM,DDG 1000 CPS - Advanced Payload Modules,FY2025,100200,100.200M,OPN,3 APMs procured,3,33400,33.400,APM qty from P-3a exhibit
+OPN_BA1,DDG 1000,LI 0947 P-3a CPS-APM,DDG 1000 CPS - Advanced Payload Modules,FY2026,70000,70.000M,OPN,2 APMs procured; 30-month production lead time,2,35000,35.000,APM qty from P-3a exhibit
+OPN_BA1,DDG 1000,LI 0947 P-3a CPS-SB,DDG 1000 CPS - Shipbuilding (HM&E mods/rubber boots/hatches),FY2024,9097,9.097M,OPN,CPS HM&E material procurement,,,,
+OPN_BA1,DDG 1000,LI 0947 P-3a CPS-SB,DDG 1000 CPS - Shipbuilding (HM&E mods/rubber boots/hatches),FY2025,53054,53.054M,OPN,Includes rubber boots/shock isolation/hatches ($16.544M) + HM&E material ($36.510M),,,,
+OPN_BA1,DDG 1000,LI 0947 P-3a CPS-SB,DDG 1000 CPS - Shipbuilding (HM&E mods/rubber boots/hatches),FY2026,2530,2.530M,OPN,CPS HM&E material only,,,,
+OPN_BA1,DDG 1000,LI 0947 P-3a CPS-Support,DDG 1000 CPS - AGS Removal and Shore Support Services,FY2024,60247,60.247M,OPN,AGS removal; CPS HM&E modifications; shore support,,,,
+OPN_BA1,DDG 1000,LI 0947 P-3a CPS-Support,DDG 1000 CPS - AGS Removal and Shore Support Services,FY2025,98719,98.719M,OPN,AGS removal; CPS HM&E modifications; shore support,,,,
+OPN_BA1,DDG 1000,LI 0947 P-3a CPS-Support,DDG 1000 CPS - AGS Removal and Shore Support Services,FY2026,25115,25.115M,OPN,Work specs for AGS removal; CPS space requirements,,,,
+OPN_BA1,DDG 1000,LI 0947 P-3a CPS-Install,DDG 1000 CPS - Installation,FY2026,500,0.500M,OPN,APM installation,,,,
+OPN_BA5-8,DDG 51 (MOD),LI 9020 J0900,DDG MOD - Initial Spares and Repair Parts,FY2024,13413,13.413M,OPN,Spares for DDG MOD systems (SPY-6; MMSP; MK41 VLS; etc.),,,,
+OPN_BA5-8,DDG 51 (MOD),LI 9020 J0900,DDG MOD - Initial Spares and Repair Parts,FY2025,10335,10.335M,OPN,Spares for DDG MOD systems,,,,
+OPN_BA5-8,DDG 51 (MOD),LI 9020 J0900,DDG MOD - Initial Spares and Repair Parts,FY2026,23948,23.948M,OPN,Spares for DDG MOD systems; $13.6M increase above FY25,,,,
+OPN_BA5-8,DDG 1000,LI 9020 J0947,DDG 1000 Class Support Equipment - Initial Spares,FY2024,5814,5.814M,OPN,Spares for DDG 1000 class,,,,
+OPN_BA5-8,DDG 1000,LI 9020 J0947,DDG 1000 Class Support Equipment - Initial Spares,FY2025,5033,5.033M,OPN,Spares for DDG 1000 class,,,,
+OPN_BA5-8,DDG 1000,LI 9020 J0947,DDG 1000 Class Support Equipment - Initial Spares,FY2026,0,0,OPN,No FY2026 spares funding,,,,
+Supp,DDG 1000,PE 0204202N,Destroyers Guided Missile (DDG-1000) - RDT&E,FY2024,215762,215.762M,RDT&E,System Development & Demonstration; BA 05,,,,
+Supp,DDG 1000,PE 0204202N,Destroyers Guided Missile (DDG-1000) - RDT&E,FY2025,224860,224.860M,RDT&E,System Development & Demonstration; BA 05,,,,
+Supp,DDG 1000,PE 0204202N,Destroyers Guided Missile (DDG-1000) - RDT&E,FY2026,58817,58.817M,RDT&E,System Development & Demonstration; BA 05; significant decrease from FY25,,,,
+Supp,DDG 1000,MILCON,DDG-1000 Ship Support Infrastructure Upgrades - MILCON,FY2026,83000,83.000M,MILCON,Joint Base Pearl Harbor-Hickam HI; military construction,,,,
+SCN,DDG 1000,LI 2119 P-35,DDG 1002 TSCE Modernization (P-35 Component),FY2026,56730,56.730M,SCN,1 shipset; part of SCN LI 2119 total,,,,
+SCN,DDG 1000,LI 2119 P-35,DDG 1002 Universal Canister Electrical Units (UCEU),FY2026,25600,25.600M,SCN,80 units (1 shipset); part of SCN LI 2119 total,,,,
+SCN,DDG 1000,LI 2119 P-35,DDG 1002 Missile Tubes (CPS),FY2026,26000,26.000M,SCN,4 tubes; part of prior-year funded items flowing into FY26,,,,
+SCN,DDG 1000,LI 2119 P-35,DDG 1002 Rubber Boots Hatches Shock Isolation (CPS),FY2026,14420,14.420M,SCN,4 sets; part of prior-year funded items flowing into FY26,,,,
+SCN,DDG 51,LI 2122 Exhibit P-5c,DDG-51 Total Ship Estimate (3 ships),FY2016,5028697,5028.697M,SCN,P-5c Ship Cost Analysis. Plan $204M + Basic Construction $2458M + Electronics $502M + HM&E $220M + Ordnance $1444M,3,1676232,1676.232,Ship qty from SCN P-1/P-5c exhibit
+SCN,DDG 51,LI 2122 Exhibit P-5c,DDG-51 Total Ship Estimate (2 ships),FY2017,3784325,3784.325M,SCN,P-5c Ship Cost Analysis,2,1892162,1892.162,Ship qty from SCN P-1/P-5c exhibit
+SCN,DDG 51,LI 2122 Exhibit P-5c,DDG-51 Total Ship Estimate (2 ships),FY2018,3502414,3502.414M,SCN,P-5c Ship Cost Analysis,2,1751207,1751.207,Ship qty from SCN P-1/P-5c exhibit
+SCN,DDG 51,LI 2122 Exhibit P-5c,DDG-51 Total Ship Estimate (3 ships),FY2019,5494740,5494.740M,SCN,P-5c Ship Cost Analysis. 10-ship MYP FY2018-2022,3,1831580,1831.580,Ship qty from SCN P-1/P-5c exhibit
+SCN,DDG 51,LI 2122 Exhibit P-5c,DDG-51 Total Ship Estimate (3 ships),FY2020,5612676,5612.676M,SCN,P-5c Ship Cost Analysis,3,1870892,1870.892,Ship qty from SCN P-1/P-5c exhibit
+SCN,DDG 51,LI 2122 Exhibit P-5c,DDG-51 Total Ship Estimate (2 ships),FY2021,4205640,4205.640M,SCN,P-5c Ship Cost Analysis,2,2102820,2102.820,Ship qty from SCN P-1/P-5c exhibit
+SCN,DDG 51,LI 2122 Exhibit P-5c,DDG-51 Total Ship Estimate (2 ships),FY2022,4007241,4007.241M,SCN,P-5c Ship Cost Analysis,2,2003620,2003.620,Ship qty from SCN P-1/P-5c exhibit
+SCN,DDG 51,LI 2122 Exhibit P-5c,DDG-51 Total Ship Estimate (3 ships),FY2023,7911345,7911.345M,SCN,P-5c Ship Cost Analysis. MYP II FY2023-2027 (9 ships with options),3,2637115,2637.115,Ship qty from SCN P-1/P-5c exhibit
+OMN,DDG 51,OMN Ship Maintenance,Surface Incremental Availabilities (SIA) - DDG maintenance increase,FY2026,40142,40.142M,OMN,Program increase in private sector DDG maintenance cost for USS Arleigh Burke (DDG 51) and USS Rushmore (LSD 47). Not standalone line item - embedded in ship maintenance accounts. Baseline: $63660K,,,,
+SCN,DDG (MEMO),SCN MEMO NON ADD,DDG Completion of Prior Year Programs (Reconciliation),FY2026,176845,176.845M,SCN,Mandatory/reconciliation funding for prior-year DDG completion,,,,

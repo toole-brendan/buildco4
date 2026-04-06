@@ -56,55 +56,21 @@ CALL_DELAY = 0.5        # seconds between API calls
 # Keyword groups
 # ---------------------------------------------------------------------------
 
+# Trimmed for taxonomy discovery — just enough to see how construction is described
 NAVY_KEYWORD_GROUPS = [
-    # Specific ship programs
-    {"keywords": ["construction of DDG"], "label": "kw_construction_ddg"},
-    {"keywords": ["DDG 51"], "label": "kw_ddg51"},
-    {"keywords": ["DDG-51"], "label": "kw_ddg51_hyphen"},
-    {"keywords": ["Virginia class submarine"], "label": "kw_virginia"},
-    {"keywords": ["Columbia class submarine"], "label": "kw_columbia"},
-    {"keywords": ["Columbia class"], "label": "kw_columbia_class"},
-    {"keywords": ["FFG 62"], "label": "kw_ffg62"},
-    {"keywords": ["Constellation class"], "label": "kw_constellation"},
-    {"keywords": ["Constellation frigate"], "label": "kw_constellation_frigate"},
-    {"keywords": ["LPD flight II"], "label": "kw_lpd_flight2"},
-    {"keywords": ["LPD 17"], "label": "kw_lpd17"},
-    {"keywords": ["LHA replacement"], "label": "kw_lha_replacement"},
-    {"keywords": ["CVN 78"], "label": "kw_cvn78"},
-    {"keywords": ["CVN 79"], "label": "kw_cvn79"},
-    {"keywords": ["CVN 80"], "label": "kw_cvn80"},
-    {"keywords": ["CVN 81"], "label": "kw_cvn81"},
-    {"keywords": ["T-AO"], "label": "kw_tao"},
-    {"keywords": ["fleet oiler"], "label": "kw_fleet_oiler"},
-    {"keywords": ["TTAGOS"], "label": "kw_ttagos"},
-    {"keywords": ["medium landing ship"], "label": "kw_medium_landing_ship"},
-    # General construction terms
     {"keywords": ["detail design and construction"], "label": "kw_dd_and_c"},
     {"keywords": ["ship construction"], "label": "kw_ship_construction"},
-    {"keywords": ["submarine construction"], "label": "kw_sub_construction"},
     {"keywords": ["advance procurement"], "label": "kw_advance_procurement", "agency": True},
 ]
 
 CG_KEYWORD_GROUPS = [
-    {"keywords": ["national security cutter"], "label": "kw_nsc", "agency_name": "United States Coast Guard"},
     {"keywords": ["offshore patrol cutter"], "label": "kw_opc", "agency_name": "United States Coast Guard"},
-    {"keywords": ["fast response cutter"], "label": "kw_frc", "agency_name": "United States Coast Guard"},
-    {"keywords": ["polar security cutter"], "label": "kw_polar", "agency_name": "United States Coast Guard"},
     {"keywords": ["cutter construction"], "label": "kw_cutter_construction", "agency_name": "United States Coast Guard"},
-    {"keywords": ["heritage class"], "label": "kw_heritage_class", "agency_name": "United States Coast Guard"},
 ]
 
-# PSC product codes for ships/small craft (FSC Group 19)
+# Just the main construction PSC code
 PSC_CODE_GROUPS = [
     {"psc": ["1905"], "label": "psc_1905_combat"},
-    {"psc": ["1910"], "label": "psc_1910_transport"},
-    {"psc": ["1915"], "label": "psc_1915_patrol"},
-    {"psc": ["1920"], "label": "psc_1920_service"},
-    {"psc": ["1925"], "label": "psc_1925_special"},
-    {"psc": ["1930"], "label": "psc_1930_barges"},
-    {"psc": ["1940"], "label": "psc_1940_small_craft"},
-    {"psc": ["1945"], "label": "psc_1945_pontoons"},
-    {"psc": ["1950"], "label": "psc_1950_floating_drydock"},
 ]
 
 # Award type groups — contracts and IDVs only (construction is never grants/other)
@@ -510,10 +476,9 @@ if __name__ == "__main__":
             writer.writerow(r)
     print(f"  Wrote {len(all_deduped)} records to {OUTPUT_CSV}\n")
 
-    # Step 6: Spending trends
-    print(f"--- Step 6: Spending Trends ---")
-    trends = pull_spending_trends()
-    print()
+    # Step 6: Spending trends — SKIPPED for taxonomy discovery
+    trends = {}
+    print(f"--- Step 6: Spending Trends — SKIPPED (taxonomy only) ---\n")
 
     # Step 7: Generate discovery report
     print(f"--- Step 7: Generating Discovery Report ---")

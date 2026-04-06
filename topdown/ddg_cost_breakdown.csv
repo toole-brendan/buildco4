@@ -1,0 +1,88 @@
+Section,Item,FY25 Per-Ship Cost ($M),Source,PDF Page
+,,,,
+HULL / BASIC CONSTRUCTION,,,,
+,Plan Costs (design / engineering),27.9,SCN_Book – P-5c Ship Cost Analysis,Vol 1 p. 212
+,Basic Construction / Conversion,1542.7,SCN_Book – P-5c Ship Cost Analysis,Vol 1 p. 212
+,Change Orders,45.6,SCN_Book – P-5c Ship Cost Analysis,Vol 1 p. 212
+,Other Ship Cost,29.5,SCN_Book – P-5c Ship Cost Analysis,Vol 1 p. 212
+,Hull / Basic Construction Subtotal,1645.7,,
+,,,,
+INSTALLED ON SHIP AT BUILD (Ordnance),,,,
+,AEGIS Weapon System (MK-7),155.2,SCN_Book – P-8a Ordnance,Vol 1 p. 217
+,AN/SPY-6(V)1 AMDR Radar,230.9,SCN_Book – P-8a Ordnance,Vol 1 p. 217
+,VLS MK 41,73.3,SCN_Book – P-8a Ordnance,Vol 1 p. 217
+,MK 45 Lightweight Gun,30.3,SCN_Book – P-8a Ordnance,Vol 1 p. 217
+,MK 37 Tomahawk WCS,17.0,SCN_Book – P-8a Ordnance,Vol 1 p. 217
+,PHALANX (CIWS),9.7,SCN_Book – P-8a Ordnance,Vol 1 p. 217
+,SPQ-9B Radar,11.0,SCN_Book – P-8a Ordnance,Vol 1 p. 217
+,MK-38 Gun Weapon System,7.7,SCN_Book – P-8a Ordnance,Vol 1 p. 217
+,MK 32 SVTT,3.5,SCN_Book – P-8a Ordnance,Vol 1 p. 217
+,Electro-Optical System,3.7,SCN_Book – P-8a Ordnance,Vol 1 p. 217
+,MK 160 GFCS,3.9,SCN_Book – P-8a Ordnance,Vol 1 p. 217
+,Misc. Ordnance,59.3,SCN_Book – P-8a Ordnance,Vol 1 p. 217
+,,,,
+INSTALLED ON SHIP AT BUILD (Electronics),,,,
+,AN/SQQ-89 ASW Suite,59.1,SCN_Book – P-8a Electronics,Vol 1 p. 215
+,AN/SLQ-32 SEWIP V(7),82.4,SCN_Book – P-8a Electronics,Vol 1 p. 215
+,EXCOMM (Ext Communications),64.7,SCN_Book – P-8a Electronics,Vol 1 p. 215
+,USQ-82(V) GEDMS,16.2,SCN_Book – P-8a Electronics,Vol 1 p. 215
+,AN/UPX-29(V) IFF / TACAN,8.2,SCN_Book – P-8a Electronics,Vol 1 p. 215
+,CEC (Cooperative Engagement),6.7,SCN_Book – P-8a Electronics,Vol 1 p. 215
+,SPECTRAL,22.4,SCN_Book – P-8a Electronics,Vol 1 p. 215
+,SRQ-4 LAMPS III,6.8,SCN_Book – P-8a Electronics,Vol 1 p. 215
+,NGSSR,2.7,SCN_Book – P-8a Electronics,Vol 1 p. 215
+,Navigation System,4.5,SCN_Book – P-8a Electronics,Vol 1 p. 215
+,SLQ-25 NIXIE,3.2,SCN_Book – P-8a Electronics,Vol 1 p. 215
+,MIDS,3.9,SCN_Book – P-8a Electronics,Vol 1 p. 215
+,MK 53 NULKA,2.5,SCN_Book – P-8a Electronics,Vol 1 p. 215
+,TSA Antenna,2.2,SCN_Book – P-8a Electronics,Vol 1 p. 215
+,Misc. Electronics,31.4,SCN_Book – P-8a Electronics,Vol 1 p. 215
+,,,,
+INSTALLED ON SHIP AT BUILD (HM&E),,,,
+,STC 3 IVCS,8.7,SCN_Book – P-8a HM&E,Vol 1 p. 216
+,Machinery Control System,6.9,SCN_Book – P-8a HM&E,Vol 1 p. 216
+,Integrated Bridge Navigation System,9.0,SCN_Book – P-8a HM&E,Vol 1 p. 216
+,Cyber BDC,4.8,SCN_Book – P-8a HM&E,Vol 1 p. 216
+,WSN-12,4.3,SCN_Book – P-8a HM&E,Vol 1 p. 216
+,Misc. HM&E,17.5,SCN_Book – P-8a HM&E,Vol 1 p. 216
+,Installed Equipment Subtotal,973.9,,
+,,,,
+,TOTAL NEW-CONSTRUCTION PER SHIP,2619.6,SCN_Book – P-5c,Vol 1 p. 212
+,,,,
+ADDED DURING MODERNIZATION (FY26 DDG MOD program total),,,,
+,SPY-6(V)4 Solid State Radar (DM014),337.1,OPN_BA1_Book – P-40 DDG Mod,Vol 1 p. 142
+,HES-C Chillers,81.1,OPN_BA1_Book – P-40 DDG Mod,Vol 1 p. 142
+,MCS/DCS (HM&E),45.9,OPN_BA1_Book – P-40 DDG Mod,Vol 1 p. 142
+,AWS Upgrade (DM004),51.9,OPN_BA1_Book – P-40 DDG Mod,Vol 1 p. 142
+,Multi-Mission Signal Processing (DM005),8.4,OPN_BA1_Book – P-40 DDG Mod,Vol 1 p. 142
+,GEDMS (HM&E),24.1,OPN_BA1_Book – P-40 DDG Mod,Vol 1 p. 142
+,IVCS Upgrade,15.0,OPN_BA1_Book – P-40 DDG Mod,Vol 1 p. 142
+,IBNS (HM&E),13.2,OPN_BA1_Book – P-40 DDG Mod,Vol 1 p. 142
+,1MC/DIAS Upgrade,10.4,OPN_BA1_Book – P-40 DDG Mod,Vol 1 p. 142
+,VLS Upgrades (DM009),9.0,OPN_BA1_Book – P-40 DDG Mod,Vol 1 p. 142
+,MK 160 Mod 15 GWS,4.4,OPN_BA1_Book – P-40 DDG Mod,Vol 1 p. 142
+,DVSS (HM&E),2.9,OPN_BA1_Book – P-40 DDG Mod,Vol 1 p. 142
+,Moriah Wind System,1.3,OPN_BA1_Book – P-40 DDG Mod,Vol 1 p. 142
+,AN/SPA-25,1.3,OPN_BA1_Book – P-40 DDG Mod,Vol 1 p. 142
+,Wireless Communications,0.7,OPN_BA1_Book – P-40 DDG Mod,Vol 1 p. 142
+,Slewing Arm Davit (SLAD),0.6,OPN_BA1_Book – P-40 DDG Mod,Vol 1 p. 142
+,P-40a Aggregated Items (test/eng/install support),79.3,OPN_BA1_Book – P-40 DDG Mod,Vol 1 p. 142
+,DDG MOD FY26 Discretionary Total,686.8,OPN_BA1_Book – P-40 DDG Mod,Vol 1 p. 142
+,DDG MOD FY26 Mandatory (reconciliation),310.7,OPN_BA1_Book – narrative,Vol 1 p. 143
+,DDG MOD FY26 Grand Total,997.5,OPN_BA1_Book – narrative,Vol 1 p. 143
+,Note: FY26 covers ~5 ships across tiers (HM&E-only through DDG MOD 2.0); per-ship cost varies by tier,,
+,Note: SPY-6(V)4 shipset ~$104-149M (procurement only) per P-3a detail,,OPN_BA1_Book,Vol 1 pp. 175+
+,,,,
+MISSILE ROUNDS / INVENTORY (FY26 unit costs),,,,
+,SM-6 Block IA (per AUR),5.3,WPN_Book – Standard Missile,Vol 1 p. 107
+,Tomahawk Block V – new build (per AUR),2.5,WPN_Book – Tomahawk,Vol 1 p. 59
+,Tomahawk Block V – recertified (per AUR),0.6,WPN_Book – Tomahawk Mods,Vol 1 p. 237
+,LRASM C-3 (per AUR),3.8,WPN_Book – LRASM,Vol 1 p. 201
+,LRASM C-1 (per AUR),3.1,WPN_Book – LRASM,Vol 1 p. 201
+,NSM – Naval Strike Missile (per AUR gross),2.3,WPN_Book – NSM,Vol 1 p. 219
+,ESSM Block 2 (per AUR gross),1.65,WPN_Book – ESSM,Vol 1 p. 249
+,MK 25 Quadpack Canister (holds 4 ESSM),0.67,WPN_Book – ESSM,Vol 1 p. 249
+,RAM Block 2 (per AUR),1.0,WPN_Book – RAM,Vol 1 p. 141
+,MK 21 Mod 4 Canister (for SM-6),0.4,WPN_Book – Standard Missile,Vol 1 p. 107
+,MK 14 Canister (for Tomahawk),0.2,WPN_Book – Tomahawk,Vol 1 p. 59
+,Note: DDG Flight III has 96 VLS cells; loadout mix is an operational decision – these are per-round procurement costs not a budgeted ship loadout,,
